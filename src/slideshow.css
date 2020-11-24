@@ -1,0 +1,28 @@
+.slideShow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+width: 100vw;
+height: 80vh;
+background-color: rgb(40, 3, 65);
+color: white;
+font-weight: bolder;
+font-size: 30px;
+
+}
+
+/* .card {
+margin: 210px;   
+display: flex;
+flex-direction: column;
+align-items: center;
+    border: 2px solid wheat;
+    width: 20vw;
+    height: 60vh;
+} */
+
+.card > img {
+object-fit: fill;
+width: 300px;
+}
+

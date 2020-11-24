@@ -1,0 +1,98 @@
+*{
+margin-left: 0;
+
+
+}
+
+
+.Navbar {
+padding-top: 10px;    
+background-color: rgb(40, 3, 65);
+align-items: center;
+width: 100vw;
+
+
+}
+
+
+
+.Navbar__menu{
+    position: relative;
+    display: flex;
+    width:100vw;
+    justify-content: center;
+    height: 90px;
+    padding-bottom: 10px;
+ }
+
+ .Navbar__menu > ul > li {
+     
+    list-style-type: none;
+    color: rgb(226, 223, 223);
+    text-shadow: 4px 4px 2px rgb(24, 8, 54);
+    background-color: rgb(12, 12, 44);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: 2px solid greenyellow;
+     width: 14vw;
+     height: 30px;
+     margin: 30px;
+     border-radius: 20px;
+     font-weight: bolder;
+     cursor: pointer;
+ }
+
+ .Navbar__menu > ul > li:nth-child(1) {
+     
+    position: relative;
+    right: 10vw;
+     list-style-type: none;
+     background-color: rgb(49, 49, 77);
+     width: 15vw;
+     height: 30px;
+     margin: 140px;
+     border-radius: 30px;
+     font-weight: bolder;
+     cursor: pointer;
+     
+ }
+
+ .Navbar__menu > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+  
+ .btn-grad {background-image: linear-gradient(to right, #0f184d 0%, #077de4  51%, #1A2980  100%)}
+ .btn-grad {
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.2s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    transform: rotatez(0deg);
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+    box-shadow: 0 0 40px rgb(152, 59, 180);
+    transform: rotatez(-2deg);
+  }
+ 
+  .btn-grad:active {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   transform: scale(1.2);
+   box-shadow: 0 10px 60px rgb(211, 228, 243);
+   border: 3px solid rgba(187, 248, 96, 0.746);
+ }

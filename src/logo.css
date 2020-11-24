@@ -1,0 +1,111 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Americorp.otf);
+    font-weight: bold;
+  }
+
+
+.ledlights {
+    width: 100vw;
+    height: 530px;
+    object-fit: fill;
+    /* filter: blur(10px);
+    filter: grayscale(90%); */
+    filter: hue-rotate(90deg);
+    
+    cursor: pointer;
+    transition: 4s;
+    box-shadow: 5px 5px 38px 10px #000000;
+    /* border-radius: 40px; */
+    
+    }
+    .ledlights:hover {
+        width: 100vw;
+        height: 530px;
+        object-fit: fill;
+        /* filter: blur(0px);
+        filter: grayscale(0%); */
+        filter: hue-rotate(0deg);
+        cursor: pointer;
+        transition: 3s;
+        transform: scale(1.03);
+        
+        }
+    
+    .logo {
+        
+        position: relative;
+        top: -65vh;
+        width: 400px;
+        border-radius: 20px;
+        cursor: pointer;
+        filter: hue-rotate(321deg);
+        transition: 2s;
+        }
+    
+        .logo:hover {
+            position: relative;
+            top: -65vh;
+            width: 400px;
+            border-radius: 180px;
+            cursor: pointer;
+            filter: hue-rotate(20deg);
+            transform:scale(1.05);
+            box-shadow: 5px 5px 38px 10px #000000;
+            transition: 2s;
+            }
+
+            .LogoPic {
+    
+                background-color: rgb(40, 3, 65);
+                align-items: center;
+                width: 100vw;
+                height: 90vh;
+                box-sizing: content-box;
+                
+                }
+                
+                .LogoPic > p {
+                    font-family: 'myFirstFont';
+                    background-color: rgb(40, 3, 65);
+                    color: antiquewhite;
+                    width: 100vw;
+                    height: 70px;
+                    font-size: 50px;
+                    padding: 20px ;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    letter-spacing: 10px;
+                    font-weight: bolder;
+                    cursor: pointer;
+                    transition: 200ms ease-out;
+                }
+
+                .LogoPic:hover > p {
+                   background-color: rgb(63, 7, 54);
+                }
+
+                .LogoPic > button > img {
+                width: 100px;
+                height: 60px;
+                border-radius: 20px;
+                }
+                .LogoPic > button  {
+                    margin: 20px;
+                    width: 100px;
+                    height: 60px;
+                    border-radius: 20px;
+                    }
+.kitty{
+    
+width: 25vw;
+height: 38vh;
+border-radius: 50%;
+border: 14px solid rgb(192, 62, 84);
+
+
+
+
+
+}
